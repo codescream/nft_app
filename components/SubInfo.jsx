@@ -124,7 +124,6 @@ export const SubInfo = () => {
         display: 'flex',
         flexDirection: "row",
         justifyContent: "space-between",
-        backgroundColor: 'green'
       }}
     >
       <People />
