@@ -1,4 +1,4 @@
-import { View, Text, Image } from 'react-native';
+import { View, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 
@@ -61,7 +61,7 @@ const NFTCard = ({ data }) => {
           }}
         >
           <ETHPrice price={data.price} />
-          <RectButton minWidth={120} fontSize={SIZES.font} handlePress={() => navigation.navigate("Details", {data})} />
+          <RectButton text={"Place a bid"} minWidth={120} fontSize={SIZES.font} handlePress={() => navigation.navigate("Details", {data})} />
         </View>
       </View>
     </View>
